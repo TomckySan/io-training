@@ -4,3 +4,6 @@
 if(0 and true) then("true" println) else("false" println)
 if("" and true) then("true" println) else("false" println)
 if(nil and true) then("true" println) else("false" println)
+
+Vehicle := Object clone
+Vehicle proto slotNames foreach(i, i println)
